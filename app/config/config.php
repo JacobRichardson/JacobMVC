@@ -4,20 +4,20 @@
     define('DB_HOST', 'localhost');
 
     // DB User.
-    define('DB_USER', 'root');
+    define('DB_USER', '_YOUR_USER_');
 
     // DB Password.
-    define('DB_PASS', 'JacobMVC2019');
+    define('DB_PASS', '_YOUR_PASS_');
 
     // DB Name.
-    define('DB_NAME', 'jmvc');
+    define('DB_NAME', '_YOUR_DBNAME_');
 
     // App root.
     define('APPROOT', dirname(dirname(__FILE__)));
 
     // URL root.
-    define('URLROOT', 'http://localhost/jacobmvc');
+    define('URLROOT', '_YOUR_URL_');
 
     // Site name.
-    define('SITENAME', 'JacobMVC');
+    define('SITENAME', '_YOUR_SITENAME_');
 ?>
