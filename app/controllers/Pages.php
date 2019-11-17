@@ -21,7 +21,11 @@
         // About method.
         public function about () {
 
-            $this->view('pages/about', []);
+            // Data.
+            $data = ['title' => 'About us'];
+
+            // Render the view with the data.
+            $this->view('pages/about', $data);
         }
     }
 
