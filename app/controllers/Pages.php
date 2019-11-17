@@ -5,7 +5,17 @@
 
         // Constructor.
         public function __construct() {
-            echo 'Pages loaded!';
+        
+        }
+
+        // Index method.
+        public function index () {
+
+        }
+
+        // About method.
+        public function about ($id) {
+            echo 'This is about ' . $id;
         }
     }
 
